@@ -10,5 +10,6 @@ conn = sqlite3.connect('test.db')
 cursor = conn.cursor()
 
 cursor.execute('create table user (id number (20) primary key,name varchar(20))')
+cursor.
 
 
